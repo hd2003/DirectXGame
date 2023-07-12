@@ -433,8 +433,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			hr = commandAllocator->Reset();
 			assert(SUCCEEDED(hr));
 			hr = commandList->Reset(commandAllocator, nullptr);
-			assert(SUCCEEDED(hr));
-		
+			assert(SUCCEEDED(hr));		
 		}
 	}
 
